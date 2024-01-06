@@ -3,9 +3,7 @@ const mongoose = require("mongoose");
 // Connect to MongoDB
 const dbConnection = () => {
   mongoose
-    .connect(
-      "mongodb+srv://admin:nDJeIzBY1xIZTGXq@cluster0.wt6tbkr.mongodb.net/?retryWrites=true&w=majority"
-    )
+    .connect("")
     .then(() => {
       console.log("db connected successfully.");
     })
